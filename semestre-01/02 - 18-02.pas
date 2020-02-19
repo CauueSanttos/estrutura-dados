@@ -16,10 +16,10 @@ var
 	queue: queues;
 
 // Show first element in queue
-procedure showOneElement(queue: queues);
+procedure showOneElement(queue: queues; count: integer);
 	begin
 		clrscr;
-		if (counter < 1) then
+		if (count < 1) then
 			begin
 				writeln ('A fila está vazia');
 			end
@@ -135,7 +135,7 @@ procedure getMenu();
 				1: insertQueue(queue, counter, size);
 				2: showQueue(queue, counter);
 				3: removeQueue(queue, counter);
-				4: showOneElement(queue);
+				4: showOneElement(queue, counter);
 				0:
 					begin
 						clrscr;
