@@ -43,12 +43,13 @@ procedure removeQueue(var queue: queues; var counter: integer);
 	  	end
 	  else
 	  	begin
+				writeln('Removido o número [', queue[1], '] da fila.');
 				for count:= 1 to counter - 1 do
 					begin
-						writeln('Removido o número [', queue[count], '] da fila.');
 						queue[count]:= queue[count + 1];
 					end;
 	  	end;
+	  	
 		
 		counter:= counter - 1;
 		readkey;
