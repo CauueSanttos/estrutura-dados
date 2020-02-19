@@ -2,7 +2,7 @@
 // Cauê
 
 // 2 - Criar uma fila, onde deve ter as seguintes operações:
-// Inserir, Remover, Consultar quem esta no final da fila, imprimir resultados.
+// Inserir, Remover, Consultar quem esta na primeira posição da fila, imprimir todos resultados.
 // Validações: Avisar caso esteja cheia ou vazia.
 
 const 
